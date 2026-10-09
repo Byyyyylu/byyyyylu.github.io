@@ -489,3 +489,6 @@ table.prices{width:100%;border-collapse:collapse;font-size:1rem}
   html{scroll-behavior:auto}
   *,*::before,*::after{transition:none!important;animation:none!important}
 }
+/* Ramka „Jasne zasady” przy cenach – na kremowym tle sekcji jaśniejsza karta, żeby wyglądała jak na /cennik */
+.cream .note-line{background:var(--paper);border:1px solid var(--line)}
+#cennik .value-note{max-width:860px;margin:0 auto 32px}
