@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /site-src/
-Disallow: /scripts/
+Disallow: /dziekujemy
 
 Sitemap: https://biurobil.pl/sitemap.xml
