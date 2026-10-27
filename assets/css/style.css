@@ -172,6 +172,7 @@ section{padding:84px 0}
 .trust .t-ico{flex:none;width:48px;height:48px;border-radius:var(--leaf-xs);display:grid;place-items:center;background:var(--sage)}
 .trust .t-ico svg{width:22px;height:22px;color:var(--green)}
 .trust li small{display:block;font-weight:400;color:var(--muted);font-size:.82rem;margin-top:3px}
+.trust .t-link{color:inherit;text-decoration:none}.trust .t-link small{color:var(--green);text-decoration:underline;text-underline-offset:3px}.trust .t-link:hover small{color:var(--forest)}
 @media (max-width:520px){.trust li{flex-direction:column;align-items:flex-start;gap:10px;padding:18px 16px}}
 @media (min-width:960px){.trust ul{grid-template-columns:repeat(4,1fr)}.trust li{padding:26px 24px}.trust li:nth-child(-n+2){border-bottom:0}.trust li:not(:last-child){border-right:1px solid var(--line)}}
 
