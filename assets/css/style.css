@@ -133,6 +133,7 @@ section{padding:84px 0}
 .cta-row{display:flex;flex-wrap:wrap;gap:12px}
 .cta-row .btn{flex:1 1 230px}
 @media (min-width:600px){.cta-row .btn{flex:0 0 auto}}
+.cta-note{margin:12px 0 0;font-size:.88rem;color:var(--muted)}
 .hero-points{list-style:none;display:flex;flex-wrap:wrap;gap:10px 20px;margin-top:28px;color:var(--ink-2);font-size:.94rem}
 .hero-points li{display:inline-flex;align-items:center;gap:8px}
 .hero-points svg{width:18px;height:18px;color:var(--brass)}
