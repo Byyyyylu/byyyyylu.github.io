@@ -510,3 +510,13 @@ table.prices{width:100%;border-collapse:collapse;font-size:1rem}
 #cennik .value-note{max-width:860px;margin:0 auto 32px}
 /* Logo na ciemnej stopce – jaśniejszy liść, żeby nie zlewał się z tłem */
 .foot-brand svg path:first-child{fill:var(--green-2)}
+
+/* Opinie klientów (cytaty z Google, za zgodą autorów) */
+.reviews{list-style:none;display:grid;gap:18px;margin:0}
+@media (min-width:900px){.reviews{grid-template-columns:repeat(3,1fr)}}
+.review{background:var(--paper);border:1px solid var(--line);border-radius:var(--leaf-sm);padding:26px 24px;display:flex;flex-direction:column;gap:12px;box-shadow:var(--sh-1,none)}
+.review .stars{color:var(--brass);letter-spacing:2px;font-size:1rem}
+.review blockquote{margin:0}
+.review blockquote p{margin:0;color:var(--ink-2);line-height:1.6}
+.review .who{margin:auto 0 0;font-weight:600;font-size:.9rem;color:var(--ink)}
+.reviews-more{text-align:center;margin:26px 0 0}
