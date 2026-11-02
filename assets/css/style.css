@@ -330,6 +330,7 @@ table.prices{width:100%;border-collapse:collapse;font-size:1rem}
 .wycena ol li{counter-increment:w;display:grid;grid-template-columns:30px 1fr;gap:10px;color:var(--ink-2)}
 .wycena ol li::before{content:counter(w);width:26px;height:26px;border-radius:50%;background:var(--brass-soft);color:var(--brass-text);font:600 .82rem/26px var(--sans);text-align:center}
 .wycena .btn{width:100%}
+.mini-form{display:grid;gap:14px;margin-top:6px}.mini-form .f-check label{font-size:.86rem}.mini-form textarea{min-height:64px}
 .wycena .small{margin:12px 0 0;color:var(--muted)}
 .contact-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px;padding:0 30px 30px}
 .contact-actions .btn{flex:1 1 180px}

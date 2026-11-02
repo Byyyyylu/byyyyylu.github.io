@@ -130,13 +130,24 @@
           <a class="btn btn-outline-light" href="mailto:biuro.biljoanna@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 7 9 6 9-6"/></svg>Napisz e-mail</a>
         </div>
       </div>
-      <div class="wycena">
-        <span class="eyebrow">Szybka wycena</span>
-        <h3>Wycena w kilka minut</h3>
-        <p>Wypełnij krótki formularz, a przygotuję wycenę dla Twojej firmy. Zapytam w nim o:</p>
-        <ol><li>formę opodatkowania,</li><li>przybliżoną liczbę dokumentów w miesiącu,</li><li>to, czy jesteś czynnym podatnikiem VAT,</li><li>czym zajmuje się Twoja firma.</li></ol>
-        <a class="btn btn-primary" href="/cennik#wycena">Wypełnij formularz wyceny<svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-        <p class="small">Wolisz e-mail? Napisz na <a href="mailto:biuro.biljoanna@gmail.com">biuro.biljoanna@gmail.com</a>.</p>
+      <div class="wycena" id="szybki-kontakt">
+        <span class="eyebrow">Bezpłatna wycena</span>
+        <h3>Zostaw numer albo e-mail</h3>
+        <p>Odezwę się w dzień roboczy i powiem, ile będzie kosztować księgowość Twojej firmy. Bez zobowiązań.</p>
+        <form class="quote-form mini-form" action="https://api.web3forms.com/submit" method="POST" accept-charset="UTF-8">
+          <input type="hidden" name="access_key" value="832df601-5844-4a2d-a987-fb9286aaf199">
+          <input type="hidden" name="subject" value="Szybki kontakt ze strony biurobil.pl/ksiegowosc-nowa-huta">
+          <input type="hidden" name="from_name" value="Strona biurobil">
+          <input type="hidden" name="redirect" value="https://biurobil.pl/dziekujemy">
+          <input type="hidden" name="Strona" value="/ksiegowosc-nowa-huta">
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="f-field"><label for="k-imie">Imię</label><input id="k-imie" type="text" name="Imię" autocomplete="given-name" required maxlength="80"></div>
+          <div class="f-field"><label for="k-kontakt">Telefon lub e-mail</label><input id="k-kontakt" type="text" name="Telefon lub e-mail" autocomplete="tel" required maxlength="120"></div>
+          <div class="f-field"><label for="k-msg">W czym mogę pomóc? <span>(opcjonalnie)</span></label><textarea id="k-msg" name="Wiadomość" rows="2" maxlength="2000" placeholder="Np. JDG na ryczałcie, ok. 5 faktur miesięcznie"></textarea></div>
+          <div class="f-field f-check"><input id="k-zgoda" type="checkbox" name="Zgoda RODO" value="Tak" required><label for="k-zgoda">Zgadzam się na przetwarzanie moich danych w celu odpowiedzi na zapytanie (<a href="/polityka-prywatnosci">polityka prywatności</a>).</label></div>
+          <button class="btn btn-primary" type="submit">Wyślij – odezwę się<svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        </form>
+        <p class="small">Wolisz pełną wycenę? <a href="/cennik#wycena">Formularz wyceny</a> · e-mail: <a href="mailto:biuro.biljoanna@gmail.com">biuro.biljoanna@gmail.com</a></p>
       </div>
     </div>
   </div>
